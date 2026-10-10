@@ -17,7 +17,7 @@
 
 | Metadata Field | Project Specification |
 | :--- | :--- |
-| **Project Title** | **Silent Voyagers** (নীরব পরিব্রাজক) |
+| **Project Title** | **Silent Voyagers** |
 | **Team Name** | **Relic Watchers** |
 | **Core Members** | **Sayed Ajlan Al Alif** & **Farzana Sultana Soma** |
 | **Institution** | **Comilla University** |
