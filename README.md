@@ -1,4 +1,4 @@
-# 🚀 Silent Voyagers (নীরব পরিব্রাজক)
+# 🚀 Silent Voyagers
 ### *Honoring humanity's silent robotic pioneers resting across extraterrestrial landscapes.*
 
 [![NASA Space Apps Challenge 2026](https://img.shields.io/badge/NASA%20Space%20Apps-2026%20Global%20Challenge-blue.svg?style=for-the-badge&logo=nasa&logoColor=white)](https://www.spaceappschallenge.org/)
