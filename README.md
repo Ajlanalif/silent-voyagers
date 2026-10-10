@@ -171,7 +171,7 @@ Follow these steps to run Silent Voyagers locally on your machine:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/relic-watchers/silent-voyagers.git
+git clone https://github.com/Ajlanalif/silent-voyagers.git
 cd silent-voyagers
 ```
 
