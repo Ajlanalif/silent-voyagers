@@ -1,0 +1,292 @@
+[
+  {
+    "id": "mer-opportunity",
+    "name": "Opportunity Rover (MER-B)",
+    "callsign": "Oppy",
+    "celestialBody": "Mars",
+    "landingSite": "Meridiani Planum (Eagle Crater)",
+    "coordinates": {
+      "latitude": -2.3364,
+      "longitude": 354.7431,
+      "formatted": "2.3364° S, 354.7431° E",
+      "elevation": "-1,400 m (relative to Martian datum)"
+    },
+    "missionDates": {
+      "launchDate": "2003-07-07",
+      "landingDate": "2004-01-25",
+      "finalContactDate": "2018-06-10",
+      "durationActive": "5,111 Sols (14 years, 138 days)",
+      "plannedDuration": "90 Sols"
+    },
+    "missionStats": {
+      "distanceTraveledKm": 45.16,
+      "photosTransmitted": 217594,
+      "eventsLogged": "Over 5,000 drive steps across 4 major craters",
+      "powerSource": "Solar Array (Dust cleared periodically by Martian dust devils)"
+    },
+    "status": "Silent",
+    "statusReason": "Catastrophic global dust storm blocked solar arrays; battery depleted in Perseverance Valley.",
+    "finalTransmission": {
+      "sol": 5111,
+      "earthDate": "2018-06-10T17:34:00Z",
+      "rawMessage": "Telemetry packet MER-B-SOL5111-ENG: P_BAT=22Wh, TAU=10.8, COMM_LOS",
+      "humanInterpretation": "My battery is low and it's getting dark.",
+      "batteryLevel": "22 Watt-hours (below survival threshold)",
+      "tauOpacity": 10.8
+    },
+    "narrativeChapter": {
+      "titleEn": "Perseverance Valley: The Marathoner Who Outlived Her Time",
+      "titleBn": "পারসিভিয়ারেন্স ভ্যালি: সময়ের সীমানা পেরোনো ম্যারাথনার",
+      "synopsisEn": "Designed for a 90-sol sprint, Opportunity drove an extraterrestrial marathon across 14.5 Earth years, uncovering hematite 'blueberries' and ancient acidic lakes before succumbing to a planet-encircling dust storm.",
+      "synopsisBn": "মাত্র ৯০ সলের জন্য প্রস্তুত অপরচুনিটি ১৪.৫ বছর ধরে মঙ্গলপৃষ্ঠে ৪২ কিলোমিটার পথ অতিক্রম করে দূর অতীতের জলরাশির প্রমাণ দিয়েছিল, শেষ পর্যন্ত এক বিশাল ধূলিঝড়ে নীরব হয়ে যাওয়ার আগে।",
+      "themeColor": "#f97316"
+    },
+    "scientificImpact": [
+      "Discovered hematite spherules ('blueberries') proving past liquid water on Mars.",
+      "First rover to complete an off-world marathon distance (42.195 km).",
+      "Discovered evidence of ancient neutral-pH water at Endeavour Crater suitable for microbial life."
+    ],
+    "orbitalVerification": {
+      "orbiter": "Mars Reconnaissance Orbiter (MRO)",
+      "instrument": "High Resolution Imaging Science Experiment (HiRISE)",
+      "archiveImageId": "ESP_056957_1775",
+      "verificationNotes": "HiRISE spotted Opportunity resting on the steep slopes of Perseverance Valley in Endeavour Crater after the storm cleared."
+    },
+    "nasaDatasets": [
+      {
+        "name": "NASA 3D Models: MER Opportunity",
+        "portalUrl": "https://data.nasa.gov/dataset/nasa-3d-models-mer-opportunity",
+        "agency": "NASA JPL",
+        "ingestionRole": "Interactive 3D geometry mesh rendering with Three.js / React Three Fiber.",
+        "datasetId": "data.nasa.gov/dataset/nasa-3d-models-mer-opportunity"
+      },
+      {
+        "name": "NASA Mars Rover Photos API (JPL OpenAPI)",
+        "portalUrl": "https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos",
+        "agency": "NASA Open Innovation / JPL",
+        "ingestionRole": "Sol-by-sol panoramic and Pancam image chronicle up to Sol 5111.",
+        "datasetId": "api.nasa.gov/mars-photos"
+      },
+      {
+        "name": "MRO HiRISE Orbital Archive",
+        "portalUrl": "https://www.uahirise.org/ESP_056957_1775",
+        "agency": "NASA / University of Arizona",
+        "ingestionRole": "Orbital high-resolution surface verification confirming rover resting coordinates."
+      }
+    ],
+    "modelAssetPath": "/assets/models/mer-opportunity.glb",
+    "archivalThumbnail": "/assets/relics/opportunity.jpg"
+  },
+  {
+    "id": "mer-spirit",
+    "name": "Spirit Rover (MER-A)",
+    "callsign": "Spirit",
+    "celestialBody": "Mars",
+    "landingSite": "Gusev Crater",
+    "coordinates": {
+      "latitude": -14.5684,
+      "longitude": 175.47263,
+      "formatted": "14.5684° S, 175.4726° E",
+      "elevation": "-1,900 m (relative to Martian datum)"
+    },
+    "missionDates": {
+      "launchDate": "2003-06-10",
+      "landingDate": "2004-01-04",
+      "finalContactDate": "2010-03-22",
+      "durationActive": "2,210 Sols (6 years, 77 days)",
+      "plannedDuration": "90 Sols"
+    },
+    "missionStats": {
+      "distanceTraveledKm": 7.73,
+      "photosTransmitted": 124838,
+      "eventsLogged": "Overcame broken right-front wheel on Sol 779; dragged wheel uncovered pure silica",
+      "powerSource": "Solar Array (Tilted towards winter sun at Home Plate)"
+    },
+    "status": "Entrapped",
+    "statusReason": "Right front wheel failure; stuck in soft sulphate-rich soil ('Troy') and unable to tilt towards winter sunlight.",
+    "finalTransmission": {
+      "sol": 2210,
+      "earthDate": "2010-03-22T05:22:00Z",
+      "rawMessage": "Telemetry packet MER-A-SOL2210: PWR_SUBOPT, THERMAL_MIN=-55C",
+      "humanInterpretation": "Entering low-power sleep mode for Martian winter.",
+      "batteryLevel": "134 Watt-hours",
+      "tauOpacity": 0.45
+    },
+    "narrativeChapter": {
+      "titleEn": "Troy's Sand Trap: The Crippled Pioneer of Gusev",
+      "titleBn": "ট্রয়ের বালুকাবেলা: গুসেভ ক্র্যাটারের অদম্য অগ্রদূত",
+      "synopsisEn": "Even when a broken wheel crippled Spirit, the dragged wheel scraped back Martian regolith to reveal 90% pure silica — proof of ancient volcanic hydrothermal fumaroles where life could have flourished.",
+      "synopsisBn": "একটি চাকা অকেজো হয়ে যাওয়ার পরও স্পিরিট পিছিয়ে আসেনি; সেই ঘর্ষিত চাকার সাহায্যেই উন্মোচিত হয়েছিল প্রাচীন আগ্নেয়গিরির উষ্ণ প্রস্রবণ ও সিলিকার স্তুপ।",
+      "themeColor": "#eab308"
+    },
+    "scientificImpact": [
+      "Serendipitous discovery of 90% pure silica deposits, proving past hot springs or steam vents.",
+      "Climbed the Columbia Hills (Husband Hill summit), offering the first 360-degree vista from a Martian summit.",
+      "Detailed analysis of explosive volcanic ash deposits at Home Plate."
+    ],
+    "orbitalVerification": {
+      "orbiter": "Mars Reconnaissance Orbiter (MRO)",
+      "instrument": "High Resolution Imaging Science Experiment (HiRISE)",
+      "archiveImageId": "PSP_001513_1655",
+      "verificationNotes": "HiRISE imaged Spirit nestled on the west side of Home Plate plateau at the sand pit designated Troy."
+    },
+    "nasaDatasets": [
+      {
+        "name": "NASA PDS Geosciences Node MER Archive",
+        "portalUrl": "https://pds-geosciences.wustl.edu/missions/mer/",
+        "agency": "NASA Planetary Data System (PDS)",
+        "ingestionRole": "In-situ APXS chemical spectra and microscopic imager geologic logs."
+      },
+      {
+        "name": "NASA Mars Rover Photos API",
+        "portalUrl": "https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos",
+        "agency": "NASA Open Innovation / JPL",
+        "ingestionRole": "Historical photographic collection from Gusev Crater and Husband Hill."
+      }
+    ],
+    "modelAssetPath": "/assets/models/mer-spirit.glb",
+    "archivalThumbnail": "/assets/relics/spirit.jpg"
+  },
+  {
+    "id": "insight-lander",
+    "name": "InSight Mars Lander",
+    "callsign": "InSight (SEIS / HP3)",
+    "celestialBody": "Mars",
+    "landingSite": "Elysium Planitia",
+    "coordinates": {
+      "latitude": 4.5024,
+      "longitude": 135.6234,
+      "formatted": "4.5024° N, 135.6234° E",
+      "elevation": "-2,613 m (relative to Martian datum)"
+    },
+    "missionDates": {
+      "launchDate": "2018-05-05",
+      "landingDate": "2018-11-26",
+      "finalContactDate": "2022-12-15",
+      "durationActive": "1,440 Sols (4 years, 19 days)",
+      "plannedDuration": "709 Sols (1 Mars year)"
+    },
+    "missionStats": {
+      "distanceTraveledKm": 0,
+      "photosTransmitted": 6480,
+      "eventsLogged": "Detected 1,319 Marsquakes, including magnitude 4.7 monster quake on Sol 1222",
+      "powerSource": "Twin 2.15-meter UltraFlex Solar Arrays"
+    },
+    "status": "Silent",
+    "statusReason": "Thick reddish dust accumulation on UltraFlex solar panels starved power system to below 285 W-hr/sol.",
+    "finalTransmission": {
+      "sol": 1440,
+      "earthDate": "2022-12-15T12:00:00Z",
+      "rawMessage": "SEIS-HK-SOL1440: V_BUS=14.1V, P_AVG=285Wh, TWILIGHT_SHUTDOWN_COMMENCE",
+      "humanInterpretation": "My power's really low, so this may be the last image I can send... Don't worry about me: my time here has been both productive and serene.",
+      "batteryLevel": "285 Watt-hours (drop from 5,000 W-hr at landing)",
+      "tauOpacity": 0.82
+    },
+    "narrativeChapter": {
+      "titleEn": "Echoes in the Crust: The Stethoscope of Mars",
+      "titleBn": "মঙ্গলপৃষ্ঠের হৃৎস্পন্দন: ইনসাইটের নীরব বিদায়",
+      "synopsisEn": "Remaining stationed in the flat sands of Elysium Planitia, InSight placed the hypersensitive SEIS seismometer directly onto the ground, listening to internal tremors, meteoroid impacts, and the metallic core of Mars.",
+      "synopsisBn": "এলিসিয়াম প্ল্যানিশিয়ার ধূলিধূসর প্রান্তরে স্থাপিত ইনসাইট ল্যান্ডার তার সিসমোমিটারের সাহায্যে শুনেছিল মঙ্গলের অন্তস্থ কম্পন, উল্কাপাতের শব্দ এবং গলিত কেন্দ্রের রহস্যময় অনুরণন।",
+      "themeColor": "#06b6d4"
+    },
+    "scientificImpact": [
+      "Determined the radius of Mars' molten metallic core to be approximately 1,830 km.",
+      "Cataloged 1,319 seismic events, proving Mars remains seismically active today.",
+      "Captured the seismic signature of direct meteoroid strikes causing fresh craters on Mars."
+    ],
+    "orbitalVerification": {
+      "orbiter": "Mars Reconnaissance Orbiter (MRO)",
+      "instrument": "High Resolution Imaging Science Experiment (HiRISE)",
+      "archiveImageId": "ESP_058013_1845",
+      "verificationNotes": "HiRISE imaged InSight, its heat shield, and parachute on Elysium Planitia; subsequent passes documented darkening of solar panels due to dust accumulation."
+    },
+    "nasaDatasets": [
+      {
+        "name": "InSight Mars Lander Mission SPICE Kernel & SEIS Data Bundle",
+        "portalUrl": "https://data.nasa.gov/dataset/insight-mars-lander-mission-spice-kernel-archive-bundle",
+        "agency": "NASA Planetary Data System (PDS) & CNES / IPGP",
+        "ingestionRole": "High-precision landing coordinates, solar orientation ephemerides, and raw seismic waveform sonification.",
+        "datasetId": "data.nasa.gov/dataset/insight-mars-lander-mission-spice-kernel-archive-bundle"
+      },
+      {
+        "name": "NASA Planetary Data System Atmospheres Node (InSight APSS)",
+        "portalUrl": "https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/INSIGHT/",
+        "agency": "NASA PDS Atmospheres Node",
+        "ingestionRole": "Continuous atmospheric pressure, wind, and temperature records."
+      }
+    ],
+    "modelAssetPath": "/assets/models/insight-lander.glb",
+    "archivalThumbnail": "/assets/relics/insight.jpg"
+  },
+  {
+    "id": "apollo-11-descent",
+    "name": "Apollo 11 Lunar Module Descent Stage",
+    "callsign": "LM-5 Eagle Descent Stage",
+    "celestialBody": "Moon",
+    "landingSite": "Mare Tranquillitatis (Sea of Tranquility)",
+    "coordinates": {
+      "latitude": 0.67416,
+      "longitude": 23.47314,
+      "formatted": "0.67416° N, 23.47314° E",
+      "elevation": "-2,573 m (relative to mean lunar radius)"
+    },
+    "missionDates": {
+      "launchDate": "1969-07-16",
+      "landingDate": "1969-07-20",
+      "finalContactDate": "1969-07-21",
+      "durationActive": "21 hours, 36 minutes on lunar surface (Ascent stage departed)",
+      "plannedDuration": "Permanent Historical Monument"
+    },
+    "missionStats": {
+      "distanceTraveledKm": 0,
+      "photosTransmitted": 1407,
+      "eventsLogged": "Served as launch pad for Eagle's ascent stage; left behind EASEP experiments, laser retroreflector, and commemorative plaque",
+      "powerSource": "Primary silver-zinc batteries (Descent stage batteries depleted after crew liftoff)"
+    },
+    "status": "Monument",
+    "statusReason": "Intentionally abandoned lunar descent stage and landing gear; designated as historic humankind heritage.",
+    "finalTransmission": {
+      "sol": 1,
+      "earthDate": "1969-07-20T20:17:40Z",
+      "rawMessage": "TRQ_BASE_CAPCOM: Houston, Tranquility Base here. The Eagle has landed.",
+      "humanInterpretation": "Houston, Tranquility Base here. The Eagle has landed. Here men from the planet Earth first set foot upon the Moon. We came in peace for all mankind.",
+      "batteryLevel": "Depleted post-ascent",
+      "tauOpacity": 0
+    },
+    "narrativeChapter": {
+      "titleEn": "Tranquility Base: The Cradle of Interplanetary Footsteps",
+      "titleBn": "শান্তি সাগর: আন্তঃগ্রহ পদক্ষেপের আদি ভিত্তি",
+      "synopsisEn": "Resting undisturbed in the pristine vacuum of the Moon for over 57 years, Eagle's gold mylar foil descent stage and ladder plaque remain humanity's first extraterrestrial monument.",
+      "synopsisBn": "চন্দ্রপৃষ্ঠের গভীর শূন্যতায় অর্ধশতাব্দীরও বেশি সময় ধরে অমলিন অবস্থায় দাঁড়িয়ে আছে অ্যাপোলো ১১-এর ডিসেন্ট স্টেজ—বিশ্বমানবতার সাহসিকতা আর শান্তির চিরন্তন প্রতীক।",
+      "themeColor": "#94a3b8"
+    },
+    "scientificImpact": [
+      "Deployed the Laser Ranging Retroreflector (LRRR), which remains the only Apollo experiment still actively returning scientific measurements from Earth today.",
+      "First direct geologic sampling of lunar regolith and mare basalts (21.55 kg returned).",
+      "Deployed the Early Apollo Surface Experiments Package (EASEP) passive seismic experiment."
+    ],
+    "orbitalVerification": {
+      "orbiter": "Lunar Reconnaissance Orbiter (LROC)",
+      "instrument": "Narrow Angle Camera (NAC)",
+      "archiveImageId": "NAC M175428646RE",
+      "verificationNotes": "LROC low-altitude (21 km) photography resolved the descent stage, footpads, astronaut bootprint paths, and the deployed laser retroreflector in startling clarity."
+    },
+    "nasaDatasets": [
+      {
+        "name": "Lunar Reconnaissance Orbiter Camera (LROC) Science Archive",
+        "portalUrl": "https://www.lroc.asu.edu/featured_sites/lroc_features/Apollo%2011/feature_highlights",
+        "agency": "NASA Goddard Space Flight Center / Arizona State University",
+        "ingestionRole": "Sub-meter orbital verification of LM-5 descent stage hardware and lunar surface footpaths.",
+        "datasetId": "pds-imaging.jpl.nasa.gov/volumes/lro.html"
+      },
+      {
+        "name": "NASA Apollo Lunar Surface Journal & PDS Lunar Data",
+        "portalUrl": "https://www.hq.nasa.gov/alsj/a11/a11.html",
+        "agency": "NASA History Division & Planetary Data System",
+        "ingestionRole": "Surface telemetry transcripts, descent stage propulsion logs, and EASEP experiment telemetry."
+      }
+    ],
+    "modelAssetPath": "/assets/models/apollo-11-descent.glb",
+    "archivalThumbnail": "/assets/relics/apollo11.jpg"
+  }
+]

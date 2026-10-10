@@ -1,0 +1,87 @@
+{
+  "opportunity_sol_series": [
+    {
+      "sol": 5080,
+      "date": "2018-05-10",
+      "batteryWattHours": 650,
+      "tauOpacity": 0.58,
+      "solarDustFactor": 0.72,
+      "driveDistanceMeters": 35.4,
+      "status": "Nominal science operations in Perseverance Valley"
+    },
+    {
+      "sol": 5095,
+      "date": "2018-05-25",
+      "batteryWattHours": 590,
+      "tauOpacity": 1.15,
+      "solarDustFactor": 0.61,
+      "driveDistanceMeters": 0.0,
+      "status": "Atmospheric opacity rising; regional storm spotted"
+    },
+    {
+      "sol": 5105,
+      "date": "2018-06-04",
+      "batteryWattHours": 345,
+      "tauOpacity": 5.20,
+      "solarDustFactor": 0.38,
+      "driveDistanceMeters": 0.0,
+      "status": "Planet-encircling dust storm warning; all non-essential loads severed"
+    },
+    {
+      "sol": 5110,
+      "date": "2018-06-09",
+      "batteryWattHours": 85,
+      "tauOpacity": 8.70,
+      "solarDustFactor": 0.15,
+      "driveDistanceMeters": 0.0,
+      "status": "Extreme power deficit; mission clock fault contingency initiated"
+    },
+    {
+      "sol": 5111,
+      "date": "2018-06-10",
+      "batteryWattHours": 22,
+      "tauOpacity": 10.80,
+      "solarDustFactor": 0.04,
+      "driveDistanceMeters": 0.0,
+      "status": "Loss of signal. Final transmission received by Deep Space Network Madrid station"
+    }
+  ],
+  "insight_seismic_events": [
+    {
+      "sol": 173,
+      "date": "2019-05-23",
+      "event": "S0173a",
+      "magnitude": 2.1,
+      "frequencyHz": 1.6,
+      "depthKm": 35.0,
+      "source": "Cerberus Fossae tectonic fracturing"
+    },
+    {
+      "sol": 235,
+      "date": "2019-07-26",
+      "event": "S0235b",
+      "magnitude": 3.7,
+      "frequencyHz": 2.4,
+      "depthKm": 28.0,
+      "source": "Sub-surface fault rupture"
+    },
+    {
+      "sol": 1222,
+      "date": "2022-05-04",
+      "event": "S1222a - The Monster Quake",
+      "magnitude": 4.7,
+      "frequencyHz": 0.8,
+      "depthKm": 45.0,
+      "source": "Largest seismic tremor ever recorded on an extraterrestrial planet; reverberated for 10 hours"
+    },
+    {
+      "sol": 1440,
+      "date": "2022-12-15",
+      "event": "Final Power Minimum",
+      "magnitude": 0.0,
+      "frequencyHz": 0.1,
+      "depthKm": 0.0,
+      "source": "SEIS sensors put into safe rest mode; solar arrays producing < 285 Wh/sol"
+    }
+  ]
+}
